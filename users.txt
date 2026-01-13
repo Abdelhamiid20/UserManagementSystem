@@ -1,0 +1,6 @@
+1;Admin;admin@expl.com
+2;Alice Dupont ;alice.dupont@mail.com
+3;Bob Martin ;bob.martin@mail.com
+4;Claire Noel ;claire.noel@mail.com
+6;Emma Leroy ;emma.leroy@mail.com
+7;fr;francois.lemaire@mail.com
