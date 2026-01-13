@@ -32,3 +32,5 @@ UserManagementSystem is a Java desktop application that provides a full-featured
 ```bash
 git clone https://github.com/abdelhamiid20/UserManagementSystem.git
 cd UserManagementSystem
+## Author
+Abdelhamiid20
