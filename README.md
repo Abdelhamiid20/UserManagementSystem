@@ -1,18 +1,34 @@
-## Getting Started
+# UserManagementSystem
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+![Java](https://img.shields.io/badge/Java-17-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Folder Structure
+## Overview
+UserManagementSystem is a Java desktop application that provides a full-featured user management system. It includes a secure login, a dynamic user table with add/edit/delete functionalities, and data persistence using SQLite. The project demonstrates Java Swing GUI development and JDBC database integration.
 
-The workspace contains two folders by default, where:
+![UserManagementSystem Screenshot](screenshot.png)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Features
+- **Login System**: Authenticate users by email and password.
+- **User Management GUI**: Add, edit, and delete users directly in the interface.
+- **Role-based Highlighting**: Admin users are highlighted in the table for quick identification.
+- **Status Indicators**: Active and inactive users are visually differentiated.
+- **Data Persistence**: All users are stored in a SQLite database (`users.db`) to keep data across sessions.
+- **Validation**: Email format and password strength are checked when adding a new user.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Technologies Used
+- Java SE 17+
+- Swing (GUI development)
+- SQLite with JDBC (database)
+- Git/GitHub (version control)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Installation & Usage
 
-## Dependency Management
+### Prerequisites
+- Java SE 17+ installed
+- Git installed (if cloning from GitHub)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Clone the repository
+```bash
+git clone https://github.com/abdelhamiid20/UserManagementSystem.git
+cd UserManagementSystem
